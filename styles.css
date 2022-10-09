@@ -1,0 +1,385 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    font-family: 'Ubuntu', sans-serif;    
+}
+
+/* =====Main Section======= */
+.section1 {
+    background-color: #7287ae;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+
+/* =======Header Section======= */
+.header {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.logo {
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+/* =========Main Menu Section========= */
+li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.headings {
+    text-align: center;
+    color: white;
+}
+
+.h1 {
+    font-size: 66px;
+    margin-top: 50px;
+    font-weight: 700px;
+   
+}
+
+.h3 {
+    font-size: 20px;
+}
+
+.vertdots {
+    justify-content: flex-end;
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.horizontdots {
+    justify-content: flex-start;
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+/* =======Popular Dish Menu Section======== */
+
+.popular-menu-section {
+    background-color: #e3ecc2;
+    padding-top: 40px;
+    margin-top: 0px;
+}
+
+.h2-popular-menu {
+    text-align: center;
+    color: #7287ae;
+    font-size: 35px;
+}
+
+.boxsection {
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image {
+    height: 301px;
+    width: 339px;
+    margin-bottom: -10px;
+}
+
+.h2-dish-name {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.p-dish-discrp {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.h2-dish-price {
+    font-size: 22px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.popular-menu-section-child {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.popular-menu-discr-main {
+    background-color: white;
+    margin-top: 0px;
+}
+
+/* =======Button Styles====== */
+
+.btnstyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+}
+
+.button {
+    background-color: #7287ae;
+    border-radius: 50px;
+    border-width: 0px;
+    color: white; 
+    margin-left: 45px; 
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+/* ========= Discount Section========== */
+
+.discount-section-main {
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.column {
+    flex: 50%;
+    background-color: white;
+    height: 500px;
+    
+}
+
+.h1-discount-section {
+    font-size: 30px;
+    color: #333333;
+    margin-left: 50px;
+    margin-top: 80px;
+
+}
+
+.p-discount-section {
+    font-size: 25px;
+    color: #333333;  
+    margin-left: 50px; 
+    margin-top: 30px;
+}
+
+/*============= Order Process Section =========== */
+
+.main-order-process-section {
+    background-color: #7287ae;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2-order-process-main-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    color: white;
+}
+
+.order-process-row {
+    display: flex;
+
+}
+
+.order-process-column {
+    text-align: center;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.h2-order-process-disr {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.p-order-process-disr {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    font-size: 48px;
+    color: #7287ae;
+    text-align: center;
+    background-color: white;
+    margin-left: 70px;
+  }
+
+/*============ Free Delivery Get Voucher Section ===============*/
+
+.main-section {
+    background-image: url(assets/getvoucherimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 1px;
+    height: 550px;
+}
+
+.main-child-section {
+    text-align: center;
+}
+
+.h1-free-delivery {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    color: #7287ae;
+}
+
+.p-free-delivery {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #7287ae;
+}
+
+.get-voucher-button {
+    border: none;
+    color: white;
+    padding: 20px 70px;
+    font-size: 28px;
+    cursor: pointer;
+    background-color: #7287ae;
+    border-radius: 50px;
+    border-width: 0px;
+    color: white;
+    margin-top: 50px;
+}
+
+/*============== Quote Section ==============*/
+
+.quote-main-section {
+    width: 100%;
+}
+
+.h2-quote {
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #7287ae;
+}
+
+.h2-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #7287ae;
+}
+
+.p-quote {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #7287ae;
+}
+
+.icons-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.icon {
+    margin-left: 20px;
+}
+
+/*============= Footer Section ============*/
+
+.footer-main-section {
+    background-color: #7287ae;
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.footer-ul {
+    display: grid;
+}
+
+.footer-li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+
+.footer-a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.footer-h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.footer-p {
+    font-size: 18px;
+    color: white;
+}
+
+.footer-ul-main {
+    display: flex;
+    margin-left: 30px;
+}
+
+.footer-li-heading {
+    font-size: 15px;
+    margin-top: 80px;
+    padding-right: 20px;
+    color: white;
+}
